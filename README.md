@@ -1,7 +1,7 @@
 # tictax
 ## a game in tic-tac-toe
 
-This game uses the AI algorithm minimax and gaurentees computer win or draw only if the human plays best moves)
+This game uses the AI algorithm minimax and guarantee computer win or draw (if the human plays best moves)
 
 To run the program using gcc:
 ```
