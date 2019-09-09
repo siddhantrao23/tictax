@@ -6,6 +6,8 @@ This game uses the AI algorithm minimax and guarantee computer win or draw (if t
 To run the program using gcc:
 ```
 gcc aitictactoe.c
-.\a.exe (windows)
-a.out (linux)
+
+	.\a.exe (windows)
+
+	a.out (linux)
 ```
