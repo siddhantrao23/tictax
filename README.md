@@ -7,7 +7,7 @@ To run the program using gcc:
 ```
 gcc aitictactoe.c
 
-	.\a.exe (windows)
+.\a.exe (windows)
 
-	a.out (linux)
+a.out (linux)
 ```
