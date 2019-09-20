@@ -280,7 +280,7 @@ int main()
             int i = move/3;
     		int j = move % 3;
             board[i][j] = COMPMOVE;
-            system("clear");
+            system("clear"); system("CLS"); //the former is for linux systems while the latter is windows.
 	        showboard(board);
         }
         else{
