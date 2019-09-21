@@ -162,7 +162,7 @@ int minimax(char board[3][3], int isMax)
                     // Make the move
                     board[i][j] = COMPMOVE;
                     // Calling minimax recursively and choose the maximum value
-                    best = fmax(best, minimax(board, 0) );
+                    best = best > minimax(board, 0) ? best : minimax(board, 0);
 
                     // Undo the move
                     board[i][j] = '_';
@@ -189,7 +189,7 @@ int minimax(char board[3][3], int isMax)
                     // Make the move
                     board[i][j] = HUMANMOVE;
                     // Call minimax recursively and chooses the minimum value
-                    best = fmin(best, minimax(board, 1));
+                    best = best < minimax(board, 1)? best : minimax(board, 1);
 
                     // Undo the move
                     board[i][j] = '_';
